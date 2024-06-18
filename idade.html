@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de idade</title>
+    <link rel="stylesheet" href="idade.css">
+    <script src="idade.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div class="caixas">
+            <p>Ano de Nascimento:
+                <input type="number" id="txtano" min="0">
+            </p>
+            <p>Sexo:<input type="radio" name="radsex"  id="mas" checked>
+            <span>Masculino</span>
+            <input type="radio" name="radsex" id="fem">
+            <span>Feminino</span>
+            </p>
+                <p>
+                    <input type= "button" value="Verificar" id="verificar" onclick="verificar()">  
+                </p>
+
+        </div>
+
+        <div id="res">
+                Preencha os dados acima para os resultados!
+        </div>
+
+    </section>
+    
+    <footer>
+        <p>&copy; Deryaxnw</p>
+    </footer>
+
+</body>
+</html>

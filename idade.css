@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(48, 177, 182); 
+    color: rgba(255, 255, 255, 0.993);
+}
+
+header {
+    text-align: center;
+    color: rgb(251, 253, 255);
+    padding: 15px;
+}
+
+section {
+    background-color: rgba(245, 245, 220, 0.582);
+    color: rgb(45, 48, 39);
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0px 0px 20px rgba(9, 94, 134, 0.651);
+    margin: auto;
+    
+}
+
+.caixas {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    letter-spacing: 1px;
+}
+
+#txtano{
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#verificar{
+    border-radius: 50px;
+    border: none;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#verificar:hover{
+    background-color: rgba(83, 16, 16, 0.548);
+    transition: 0.8s;
+}
+
+#res{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+img {
+
+    padding: 15px;
+
+}
