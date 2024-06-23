@@ -52,8 +52,9 @@ section {
 }
 
 #verificar:hover{
-    background-color: rgba(83, 16, 16, 0.548);
+    background-color: rgba(77, 57, 57, 0.548);
     transition: 0.8s;
+    transform: scale(1.10);
 }
 
 #res{
@@ -70,7 +71,9 @@ footer {
 }
 
 img {
-
+    width: 300px;
     padding: 15px;
 
 }
+
+

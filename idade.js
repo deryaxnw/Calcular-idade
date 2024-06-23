@@ -22,15 +22,18 @@ function verificar(){
                     } else if ( idade >=5 && idade < 14){     
                         //menino
                         img.setAttribute('src', 'imagens2/menino.png')
-                    } else if (idade >=14 && idade < 25){
+                    } else if (idade >=14 && idade < 26){
                         //jovem
                         img.setAttribute('src', 'imagens2/homem-jovem.png')
-                   } else if (idade < 50) {
+                   } else if (idade >= 26 && idade < 50 ) {
                         //adulto
                     img.setAttribute('src', 'imagens2/homem-adulto.png')
-                   } else {
+                   } else if (idade >=50 && idade < 120 ){
                         //velho
                         img.setAttribute('src', 'imagens2/homem-velho.png')
+                   } else {
+                    //finado
+                    img.setAttribute('src', 'imagens2/caixaoo.png')
                    }
 
                 }
@@ -42,15 +45,17 @@ function verificar(){
                     } else if (idade >= 5 && idade < 14){     
                         //menina
                         img.setAttribute('src', 'imagens2/menina.png')
-                    } else if (idade >= 14 && idade < 25){
+                    } else if (idade >= 14 && idade < 26){
                         //jovem
                         img.setAttribute('src', 'imagens2/mulher-jovem.png')
-                   } else if ( idade < 50) {
+                   } else if ( idade >= 26 && idade < 50) {
                         //adulto
                     img.setAttribute('src', 'imagens2/mulher-adulta.png')
-                   } else {
+                   } else if (idade >= 50 && idade < 120) {
                     img.setAttribute('src', 'imagens2/mulher-velha.png')
                         // idoso
+                   } else {
+                        img.setAttribute('src' , 'imagens2/caixaoo.png')
                    }
                     
                 } 
